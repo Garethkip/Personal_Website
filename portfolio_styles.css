@@ -1,0 +1,161 @@
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    html,
+    body {
+        height: 1000px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-family: Roboto, Arial;
+    }
+    
+    header {
+        position: fixed;
+        background-color: rgba(149, 146, 146, 0.5);
+        height: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        padding: 0px;
+        z-index: 100;
+    }
+    
+    header button {
+        margin-right: 30px;
+        padding: 10px;
+        border: 1px solid rgb(173, 164, 164);
+        border-radius: 20px;
+        background-color: rgba(149, 146, 146, 0.5);
+        display: inline-block;
+        box-shadow: 1px 1px 100px black;
+        transition: opacity 0.2s;
+    }
+    
+    header button:hover {
+        opacity: 0.5;
+        border: 1px solid black;
+    }
+    
+    header button a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .Container {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .Container img {
+        flex: 1;
+        object-fit: cover;
+    }
+    
+    .Page {
+        height: 100%;
+    }
+    
+    .info {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex: 1;
+        border: 2px solid black;
+    }
+    
+    .info div {
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+    .Credentials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #Name {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    #Title {
+        color: white;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 300;
+    }
+    
+    #Transparent {
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+    }
+    
+    #Transparent section {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    #Transparent section img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    #About {
+        background-color: white;
+    }
+    
+    #Skills {
+        background-color: white;
+    }
+    
+    #skills_list,
+    #Projects_list {
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid black;
+    }
+    
+    #skills_list li,
+    #Projects_list li {
+        list-style: none;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    #Portfolio {
+        background-color: white;
+    }
+    
+    #Projects {
+        background-color: white;
+    }
+    
+    #Contact {
+        color: white;
+        background-color: rgba(245, 239, 239, 0.2);
+    }
