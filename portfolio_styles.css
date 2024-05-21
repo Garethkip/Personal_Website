@@ -70,7 +70,6 @@ header button a {
     flex-direction: column;
     width: 100%;
     flex: 1;
-    border: 2px solid black;
 }
 
 .info div {
@@ -149,22 +148,22 @@ li img {
     height: 100%;
     object-fit: cover;
     z-index: 1;
+    border-radius: 20px;
 }
 
 #skills_list,
 #Projects_list {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid black;
+    justify-content: space-between;
 }
 
 #skills_list li,
 #Projects_list li {
     list-style: none;
-    border: 2px solid black;
     padding: 10px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 15%;
     display: flex;
     flex-direction: column;
@@ -181,6 +180,7 @@ li img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: none;
 }
 
 #Projects {
